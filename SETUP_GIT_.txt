@@ -1,0 +1,35 @@
+// initialization
+
+git init
+
+touch README.md
+
+touch .gitignore
+
+git add .
+
+git config --global user.name 'ali'
+
+git config --global user.email 'dghv@'
+
+************************************
+// add file 
+
+git add file.name
+
+************************************
+// add all fie 
+
+git add .
+
+************************************
+// check git
+
+git status 
+
+************************************
+// commit
+
+git commit -m 'comment'
+
+************************************
