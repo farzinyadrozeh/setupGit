@@ -70,7 +70,7 @@ git checkout <existing_branch>
 // delete branch
 
 git branch -D [name_of_your_new_branch]
-
+git push origin :[name_of_your_new_branch]
 
 ************************************
 
