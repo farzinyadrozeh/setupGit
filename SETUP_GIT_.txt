@@ -17,47 +17,64 @@ git config --global user.email 'dghv@'
 
 git add file.name
 
+
 ************************************
 // add all fie 
 
 git add .
+
 
 ************************************
 // check git
 
 git status 
 
+
 ************************************
 // commit
 
 git commit -m 'comment'
+
 
 ************************************
 // push on branch 
 
 git push -u origin master
 
+
 ************************************
 // pull on branch 
 
 git pull
+
 
 ************************************
 // show all branch 
 
 git branch -a 
 
+
 ************************************
 // create new branch  
 
 git checkout -b [name_of_your_new_branch]
+
 
 ************************************
 // switch between branch git
 
 git checkout <existing_branch>
 
+
 ************************************
+// delete branch
+
+git branch -D [name_of_your_new_branch]
+
+
+************************************
+
+
 
 // or create a new repository on the command line
 git init
