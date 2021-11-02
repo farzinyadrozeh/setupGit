@@ -74,6 +74,12 @@ git push origin :[name_of_your_new_branch]
 
 ************************************
 
+// change to commit by id
+git reset --hard commitId
+
+************************************
+
+
 
 
 // or create a new repository on the command line
