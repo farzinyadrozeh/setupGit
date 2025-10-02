@@ -84,6 +84,9 @@ git reset --hard commitId
 If you want the changes staged so you can inspect them but not committed yet:
 
 git switch master
+or
+git checkout master
+
 git merge --no-ff --no-commit emergency-fix
 # Review:
 git status
