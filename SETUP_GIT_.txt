@@ -79,6 +79,23 @@ git reset --hard commitId
 
 ************************************
 
+“Dry-run” merge you can review, then decide
+
+If you want the changes staged so you can inspect them but not committed yet:
+
+git switch master
+git merge --no-ff --no-commit emergency-fix
+# Review:
+git status
+git diff            # unstaged
+git diff --staged   # staged (what would be committed)
+# If happy:
+git commit
+# If not:
+git merge --abort
+
+
+************************************
 
 
 
